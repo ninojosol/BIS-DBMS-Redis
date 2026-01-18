@@ -1,2 +1,7 @@
-//Check docker if active
-docker exec -it redis-lab redis-cli PING
+demo section:
+
+1: Installing & Caching
+2: User Data Modeling 
+3: Messaging & Queues
+4: Real-Time Analytics
+5: Session Management

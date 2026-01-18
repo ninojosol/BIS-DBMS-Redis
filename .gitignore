@@ -1,0 +1,17 @@
+﻿# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
+
+# Env (never commit)
+.env
+.env.*
+
+# Redis persistence files (avoid committing data dumps)
+dump.rdb
+appendonly.aof
+*.rdb
+*.aof
