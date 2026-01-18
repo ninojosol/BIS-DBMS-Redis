@@ -1,0 +1,5 @@
+﻿-- Demo 04: Set (unique items / membership)
+DEL post:10:tags
+SADD post:10:tags "redis" "nosql" "dbms" "redis"
+SMEMBERS post:10:tags
+SISMEMBER post:10:tags "redis"

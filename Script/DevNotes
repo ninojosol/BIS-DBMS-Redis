@@ -1,7 +1,15 @@
 demo section:
 
-1: Installing & Caching
-2: User Data Modeling 
-3: Messaging & Queues
-4: Real-Time Analytics
-5: Session Management
+Use Case demos (Section III – “All 5 members”)
+1. Installing & Caching (Nino) → Demo: Basics + TTL (cache/session style)
+2. User Data Modeling (Long) → Demo: Hash user profile
+3. Messaging & Queues (Ninh) → Demo: List queue
+4. Real-Time Analytics (Thu) → Demo: Sorted Set leaderboard
+5. Session Management (Hung) → Demo: TTL-based session token
+
+
+Run-RedisDemo demo\01-basics-and-ttl.redis
+Run-RedisDemo demo\02-hash-user-profile.redis
+Run-RedisDemo demo\03-list-queue.redis
+Run-RedisDemo demo\04-set-tags.redis
+Run-RedisDemo demo\05-sortedset-leaderboard.redis

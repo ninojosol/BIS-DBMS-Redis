@@ -1,0 +1,11 @@
+﻿-- Demo 05: Sorted Set Leaderboard
+DEL leaderboard:weekly
+ZADD leaderboard:weekly 1200 "Nino"
+ZADD leaderboard:weekly 980  "Alex"
+ZADD leaderboard:weekly 1500 "Lucy"
+ZADD leaderboard:weekly 1100 "Ken"
+ZREVRANGE leaderboard:weekly 0 3 WITHSCORES
+ZINCRBY leaderboard:weekly 50 "Alex"
+ZREVRANGE leaderboard:weekly 0 3 WITHSCORES
+ZREVRANK leaderboard:weekly "Alex"
+ZSCORE leaderboard:weekly "Alex"

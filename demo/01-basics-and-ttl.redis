@@ -1,0 +1,6 @@
+﻿-- Demo 01: Basics + TTL (sessions / cache)
+DEL session:abc
+SET session:abc "user_1001"
+EXPIRE session:abc 30
+TTL session:abc
+GET session:abc

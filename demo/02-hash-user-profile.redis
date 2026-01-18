@@ -1,0 +1,5 @@
+﻿-- Demo 02: Hash (like a SQL row/object)
+DEL user:1001
+HSET user:1001 name "Nino" role "Student" country "VN"
+HGETALL user:1001
+HGET user:1001 name

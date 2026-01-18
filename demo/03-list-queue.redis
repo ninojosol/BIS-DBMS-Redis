@@ -1,0 +1,6 @@
+﻿-- Demo 03: List (queue / recent activities)
+DEL queue:tasks
+LPUSH queue:tasks "task1" "task2" "task3"
+LRANGE queue:tasks 0 -1
+RPOP queue:tasks
+LRANGE queue:tasks 0 -1
