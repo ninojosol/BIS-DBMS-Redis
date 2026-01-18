@@ -1,0 +1,2 @@
+//Check docker if active
+docker exec -it redis-lab redis-cli PING
